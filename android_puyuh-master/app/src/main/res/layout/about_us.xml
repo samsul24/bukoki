@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg">
+
+    <Button
+        android:id="@+id/btnBack_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kembali" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_gravity="center"
+        android:layout_width="400px"
+        android:layout_height="200px"
+        app:srcCompat="@drawable/ic_logo"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/deskripsi"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorText"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:text="Puyuhin adalah aplikasi pencatatan laporan hasil ternak dan keuangan pada peternakan burung puyuh independen" />
+
+     <TextView
+        android:id="@+id/author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginTop="40px"
+        android:textColor="@color/colorText"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="Bagus Kurnia Winanto" />
+    <TextView
+        android:id="@+id/author2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorText"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="Kiki Rizka Abdullah" />
+
+    <TextView
+        android:id="@+id/linkWeb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40px"
+        android:textColor="@color/colorText"
+        android:textAlignment="center"
+        android:text="Puyuhin.online" />
+</LinearLayout>

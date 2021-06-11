@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_bg"
+    tools:context=".LaporanHarian.LaporanActivity">
+
+    <Button
+        android:id="@+id/btnBack_addLaporan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kembali" />
+
+    <TextView
+        android:id="@+id/textTitleLaporan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/colorText"
+        android:text="Laporan Harian" />
+
+    <TextView
+        android:id="@+id/textTanggalLaporan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Tanggal Laporan"
+        android:textColor="@color/colorText" />
+
+    <EditText
+        android:id="@+id/edit_kandang"
+        android:layout_width="400px"
+        android:layout_height="96px"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/colorText"
+        android:background="@drawable/ic_form_no_kandang"/>
+
+    <EditText
+        android:id="@+id/edit_laporanTelur"
+        android:layout_width="400px"
+        android:layout_height="96px"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/colorText"
+        android:background="@drawable/ic_form_jml_telur_laporan"
+        android:layout_marginTop="25dp"/>
+
+    <EditText
+        android:id="@+id/edit_laporanKematian"
+        android:layout_width="400px"
+        android:layout_height="96px"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/colorText"
+        android:background="@drawable/ic_form_kematian"
+        android:layout_marginTop="25dp"/>
+
+    <Button
+        android:id="@+id/btn_submitLaporan"
+        android:layout_width="300px"
+        android:layout_height="74px"
+        android:layout_gravity="center"
+        android:background="@drawable/ic_btn_submit"
+        android:layout_marginTop="25dp"/>
+
+</LinearLayout>
